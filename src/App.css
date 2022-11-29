@@ -23,6 +23,72 @@ body {
   width: 82px;
   margin-top: 20px;
   margin-left: 20px;
-
 }
 
+.Hero-imgs > img:nth-child(1) {
+  position: absolute;
+  width: 150px;
+  left: 180px;
+  top: 100px;
+}
+
+.Hero-imgs > img:nth-child(2) {
+  position: absolute;
+  width: 150px;
+  left: 340px;
+  top: 150px;
+}
+
+.Hero-imgs > img:nth-child(3) {
+  position: absolute;
+  width: 150px;
+  left: 500px;
+  top: 100px;
+}
+
+.Hero-imgs > img:nth-child(4) {
+  position: absolute;
+  width: 150px;
+  left: 660px;
+  top: 130px;
+}
+
+.Hero-imgs > img:nth-child(5) {
+  position: absolute;
+  width: 150px;
+  left: 20px;
+  top: 160px;
+}
+
+.Hero-imgs > img:nth-child(6) {
+  position: absolute;
+  width: 150px;
+  left: 180px;
+  top: 250px;
+}
+
+.Hero-imgs > img:nth-child(7) {
+  position: absolute;
+  width: 150px;
+  left: 340px;
+  top: 360px;
+}
+
+.Hero-imgs > img:nth-child(8) {
+  position: absolute;
+  width: 150px;
+  left: 500px;
+  top: 310px;
+}
+
+.Hero-imgs > img:nth-child(9) {
+  position: absolute;
+  width: 150px;
+  left: 660px;
+  top: 340px;
+}
+
+.Hero-info {
+  padding-left: 50px;
+  padding-top: 550px;
+}
