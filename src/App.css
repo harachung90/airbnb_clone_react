@@ -6,89 +6,35 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.Navbar {
-  position: absolute;
-  width: 100%;
+nav {
+  display: flex;
+  padding: 20px 35px;
   height: 70px;
-  left: 0px;
-  top: 0px;
-
   background: #FFFFFF;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.Navbar > img {
-  width: 82px;
-  margin-top: 20px;
-  margin-left: 20px;
+.nav-logo {
+  max-width: 100px;
 }
 
-.Hero-imgs > img:nth-child(1) {
-  position: absolute;
-  width: 150px;
-  left: 180px;
-  top: 100px;
+section {
+  margin: 20px;
 }
 
-.Hero-imgs > img:nth-child(2) {
-  position: absolute;
-  width: 150px;
-  left: 340px;
-  top: 150px;
-}
-
-.Hero-imgs > img:nth-child(3) {
-  position: absolute;
-  width: 150px;
-  left: 500px;
-  top: 100px;
-}
-
-.Hero-imgs > img:nth-child(4) {
-  position: absolute;
-  width: 150px;
-  left: 660px;
-  top: 130px;
-}
-
-.Hero-imgs > img:nth-child(5) {
-  position: absolute;
-  width: 150px;
-  left: 20px;
-  top: 160px;
-}
-
-.Hero-imgs > img:nth-child(6) {
-  position: absolute;
-  width: 150px;
-  left: 180px;
-  top: 250px;
-}
-
-.Hero-imgs > img:nth-child(7) {
-  position: absolute;
-  width: 150px;
-  left: 340px;
-  top: 360px;
-}
-
-.Hero-imgs > img:nth-child(8) {
-  position: absolute;
-  width: 150px;
-  left: 500px;
-  top: 310px;
-}
-
-.Hero-imgs > img:nth-child(9) {
-  position: absolute;
-  width: 150px;
-  left: 660px;
-  top: 340px;
+.Hero-img {
+  align-self: center;
 }
 
 .Hero-info {
   padding-left: 50px;
-  padding-top: 550px;
+
 }
+
+.Hero > h1 {
+  margin-top: 20px;
+}
+
