@@ -31,10 +31,43 @@ section {
 
 .Hero-info {
   padding-left: 50px;
-
 }
 
 .Hero > h1 {
   margin-top: 20px;
 }
 
+.img_status > img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.card {
+  font-size: 12px;
+}
+
+.img_status > p {
+  position: absolute;
+  top: 980px;
+  left: 30px;
+  background-color: #FFFFFF;
+}
+
+
+.card-info > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.card-info {
+  align-content: center;
+}
+
+.grey {
+  color: darkgrey;
+}
+
+.bold {
+  font-weight: bold;
+}
