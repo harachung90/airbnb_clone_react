@@ -39,6 +39,7 @@ section {
 
 .img_status > img {
   width: 250px;
+  height: 334px;
   border-radius: 20px;
 }
 
@@ -70,4 +71,8 @@ section {
 
 .bold {
   font-weight: bold;
+}
+
+.cards {
+  display: flex;
 }
