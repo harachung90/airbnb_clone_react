@@ -1,19 +1,33 @@
 import './App.css';
+import ReactDOM from "react-dom/client";
 import {Navbar} from "./Navbar";
 import {Hero} from "./Hero";
 import Card from "./Card";
+import Data from "./Data";
 
-import katie from './katie-zaferes.png';
-import wedding from './img_1.png';
-import bike from './img_2.png';
 
 function App() {
+    const cardElement = Data.map(card => {
+        return <Card
+                id={card.id}
+                title={card.title}
+                description={card.description}
+                price={card.price}
+                coverImg={card.coverImg}
+                stats={card.stats}
+                location={card.location}
+                openSpots={card.openSpots}
+            />
+    })
+
     return (
         <div className="App">
             <Navbar/>
             <Hero/>
+
             <div className="cards">
-                <Card
+                {cardElement}
+                {/*<Card
                     img={katie}
                     rating="5.0"
                     raters="6"
@@ -36,7 +50,7 @@ function App() {
                     country="USA"
                     title="Group Mountain Biking"
                     cost="50"
-                />
+                />*/}
             </div>
 
         </div>
